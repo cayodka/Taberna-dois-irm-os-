@@ -1,0 +1,4 @@
+aba de compra 
+>> assim que clicar em um item aparacer a mensagem que foi comprada(window alert) 
+>> aba para ir a outra area onde tera mesa e um bardo 
+>> ao clicar no bardo ele comecar a tocar uma musica.

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imgs/vapor\ trail.gif");
+    font: normal 20pt arial;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container-button-purchaser{
+    position: absolute;
+    display: flex;
+    background-repeat: no-repeat;
+    top: 480px;
+    left: 500px;
+}
+
+#button-purchaser {
+    height: 87px;
+    width: 215px;
+    transition: 300ms linear;
+    border: 3px solid orange;
+}
+.itens-purchaser{
+    display: flex;
+    left: 850px;
+    position: absolute;
+    top: 850px;
+    gap: 25px;
+    background-color: rgba(114, 114, 114, 0.668);
+    border: 3px solid rgba(216, 161, 9, 0.951);
+    border-radius: 5px;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    width: 320px;
+    height: 120px;
+}
+#bt1{
+    background-color: rgba(231, 9, 9, 0);
+    height: 75px;
+    width: 75px;
+    transition: 300ms linear;
+    border: none;
+    align-items: center;
+}
+#bt2{
+    height: 75px;
+    width: 75px;
+    transition: 300ms linear;
+    border: none;
+}
+#bt3{
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    transition: 300ms linear;
+    border: none;
+}
+
+#merchante {
+    height: 60px;
+    width: 50px;
+    display: flex;
+    left: 525px;
+    top: 180px;
+    position: absolute;   
+    align-items: center;
+    border: none;
+}
+
+.logo {
+    left: 210px;
+    display: flex;
+    position: absolute;
+}
+button{ 
+    transition: 300ms linear;
+    text-decoration: none;
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#itens-purchaser{
+    transition: 300ms linear;
+    text-decoration: none;
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0);
+}
+
+button:hover{
+    transform: scale(1.20);
+}
+.itens-purchaser:hover{
+    transform: scale(1.20);
+}
+#bt1:hover{
+    transform: scale(1.30);
+}
+#bt2:hover{
+    transform: scale(1.30);
+}
+#bt3:hover{
+    transform: scale(1.30);
+}
+#newarea {
+    height: 0px;
+    width: 10px;
+    display: flex;
+    position: absolute;   
+    align-items: center;
+    border: none;
+    left: 15px;
+}

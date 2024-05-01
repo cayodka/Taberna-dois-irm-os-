@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <title>Taberna dois irmãos</title>
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/treasure-chest.png">
+</head>
+<header>
+    <nav>
+        <button id="newarea"><a href="./bardo.html"></a><img src="../imgs/back-arrow.png"></button>
+    </nav>
+</header>
+<body>
+   <div id="container-button-purchaser">
+        <button onclick="toggle('itens-purchaser')"><img src="../imgs/button_purchaser.png"></button>
+   </div>
+   
+   <div id="itens-purchaser">
+        <div id="bt1">
+            <button onclick="armor()"><img src="../imgs/armor.png"></button>
+        </div>
+        <div id="bt2">
+            <button onclick="potion()"><img src="../imgs/game.png"></button>
+        </div>
+        <div id="bt3">
+            <button onclick="weapons()"><img src="../imgs/spear.png"></button>
+        </div>
+    </div>
+
+    <div id="merchante">
+        <button onclick="merchante()"><img src="./imgs/merchante.png"></button>
+    </div>
+    
+    <div class="logo">
+        <img src="./imgs/taberna-dois-irm-es-29-04-2024 (1).gif">
+    </div>
+</body>
+<script src="./src/script.js" defer></script>
+</html>
